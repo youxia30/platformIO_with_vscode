@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../vscode/python"
+		},
+		{
+			"name": "EPS32",
+			"path": "../EPS32"
+		}
+	],
+	"settings": {}
+}
