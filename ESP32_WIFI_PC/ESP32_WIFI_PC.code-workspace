@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "ESP32_WIFI_PC",
+			"path": "C:/Users/4-0777/Documents/PlatformIO/Projects/ESP32_WIFI_PC"
+		},
+		{
+			"name": "ESP32_TCP_SOCKET_with_PC",
+			"path": "C:/Users/4-0777/Documents/PlatformIO/Projects/ESP32_TCP_SOCKET_with_PC"
+		},
+		{
+			"name": "ESP32_ESPNOW",
+			"path": "C:/Users/4-0777/Documents/PlatformIO/Projects/ESP32_ESPNOW"
+		}
+	],
+	"settings": {}
+}

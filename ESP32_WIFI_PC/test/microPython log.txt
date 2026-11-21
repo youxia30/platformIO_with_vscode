@@ -1,0 +1,11 @@
+>>>>No module named 'network'
+network 是 MicroPython 专用模块，Windows 上的普通 Python 没有该模块，因此报错。
+
+如果是在电脑上运行此程序：删除 import network，以及 do_connect() 中的 Wi-Fi 连接代码，只保留 UDP 接收逻辑即可。
+
+如果要烧录到 ESP32：
+
+安装 MicroPython 固件，而不是 Arduino 固件。
+使用 Thonny 或 MicroPython 插件上传并运行此 .py 文件。
+ESP32 会连接 Wi-Fi；network 模块才能正常使用。
+当前主工程已使用 Arduino 和 main.cpp，不应在 PlatformIO 中运行这个 MicroPython 文件。
